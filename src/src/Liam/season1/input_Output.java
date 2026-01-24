@@ -1,9 +1,9 @@
-package Liam;
+package Liam.season1;
 
 import java.util.Scanner; // library imported to read data inputed on the console, similar to scanf on C
 
 public class input_Output {
-    public static void input_func(String[] args) {
+    public static void main(String[] args) {
 
         /* INPUTS & OUTPUTS ON JAVA */
         /* OUTPUT */

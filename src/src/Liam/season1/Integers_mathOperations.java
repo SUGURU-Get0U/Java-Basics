@@ -1,7 +1,7 @@
-package Liam;
+package Liam.season1;
 
 public class Integers_mathOperations {
-    public static void botaFlakao(String[] args) {
+    public static void main(String[] args) {
 
         /*   INTRODUCING MATHEMATICAL OPERATIONS   */
 
@@ -43,7 +43,7 @@ public class Integers_mathOperations {
         System.out.println("Floored value: " + Math.floor(1.23));
         // rounds any number down to the nearest whole integer
 
-        System.out.println("Maximum: " + Math.min(10, 200));
+        System.out.println("Minimum: " + Math.min(10, 200));
         System.out.println("Maximum: " + Math.max(37, 750));
 
     }

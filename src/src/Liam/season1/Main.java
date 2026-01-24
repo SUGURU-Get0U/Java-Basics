@@ -1,6 +1,5 @@
-package Liam;
+package Liam.season1;
 
-import java.sql.Statement;
 import java.util.Scanner;
 
 public class Main {

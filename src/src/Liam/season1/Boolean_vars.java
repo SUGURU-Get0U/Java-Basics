@@ -1,7 +1,7 @@
-package Liam;
+package Liam.season1;
 
 public class Boolean_vars {
-    public static void boolean_var(String[] args) {
+    public static void main(String[] args) {
 
         /* Boolean Variables */
 

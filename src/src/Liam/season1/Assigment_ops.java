@@ -1,7 +1,7 @@
-package Liam;
+package Liam.season1;
 
 public class Assigment_ops {
-    public static void ass(String[] args) {
+    public static void main(String[] args) {
 
         // Default Assignment
         int pix = 10;
