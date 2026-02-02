@@ -1,6 +1,6 @@
 package Liam.season3;
 
-public class Animal {
+public abstract class  Animal {
     // These are the class' fields
     public String image; // public is accessible and changeable from anywhere
     protected String name; // protected is accessible in sub-classes and classes on the same package
@@ -30,4 +30,9 @@ public class Animal {
     public void makeSound(){
         System.out.println("skibidi");
     }
+
+    // NOW WE CAN CREATE ABSTRACT METHODS!
+
+    public abstract void move();
+    // basically says that the implementation of the method has to be done by its subclasses.
 }

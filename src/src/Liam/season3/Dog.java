@@ -11,6 +11,11 @@ public class Dog extends Animal{
         System.out.println("ワン");
     }
 
+    @Override
+    public void move() {
+        System.out.println("Chicken is jocking");
+    }
+
     /// A class has a default constructor that looks like this:
     /// public Dog() {
     ///
