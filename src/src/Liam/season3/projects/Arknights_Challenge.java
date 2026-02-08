@@ -4,10 +4,15 @@ import java.util.Arrays;
 
 public class Arknights_Challenge {
     static void main(String[] args) {
-        double[] stats = {20.0,20.0,20.0,20.0};
-        Operator Perlica = new Operator("Perlica", "perlica.png", 5, stats );
+
+        Operator Perlica = new Operator("Perlica", "******", 1, 100);
+
+        System.out.println(Perlica.getName());
+
+
 
         Perlica.displayInfo();
+        Perlica.performDefense();
     }
 
 
