@@ -31,10 +31,7 @@ public class exercise_review {
 
     private static boolean wannaStop(Scanner scanner) {
         System.out.println("\nDo you want to calculate something else? y/n");
-        if(!scanner.next().equals("y")) {
-            return true;
-        }
-        return false;
+        return !scanner.next().equals("y");
     }
 
     public static int sum(int a, int b) {
