@@ -22,11 +22,16 @@ public class Question {
     }
 
 
-    void checkAnswer(String userInput) {
-        System.out.println(userInput.contains(answer.toLowerCase()) ? "✅ You Got it!" : "❌ Wrong!");
-        System.out.println("loading next question...");
-        // better way of using the ternary operator
-        // cant use sout because of the void behavior!
+
+    public boolean checkAnswer(String userInput) {
+        // Standardizing both to lowercase makes it case-insensitive!
+        if (userInput.toLowerCase().trim().equals(answer.toLowerCase())) {
+            System.out.println("✅ You Got it!");
+            return true;
+        } else {
+            System.out.println("❌ Wrong! The answer was: " + answer);
+            return false;
+        }
     }
 
 }
