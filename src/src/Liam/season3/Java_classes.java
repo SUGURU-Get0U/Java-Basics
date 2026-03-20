@@ -3,7 +3,7 @@ package Liam.season3;
 import javax.swing.plaf.PanelUI;
 
 public class Java_classes {
-    static void main() {
+    public static void main(String[] args) {
 
         Animal jeff = new Dog("jeff.png", "jeff", 9);
         Animal mittens = new Cat("mittens.png", "mittens", 6);
@@ -24,7 +24,7 @@ public class Java_classes {
 
         // ABSTRACT CLASSES AND INTERFACES
         // note that with our class we can create an instance of type animal:
-        /// Animal animal = new Animal("Example.png", "animal", 67);
+        // Animal animal = new Animal("Example.png", "animal", 67);
         // however that doesnt make sense... the scope is too broad and we cant tell which animal it is
         // therefore we have to make it AN ABSTRACT CLASS!
 
